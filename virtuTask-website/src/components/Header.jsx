@@ -46,9 +46,6 @@ const Header = () => {
               <li className="nav-item">
                 <a className="nav-link px-3 fw-medium nav-link-hover" href="/why-us">Why Us</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link px-3 fw-medium nav-link-hover" href="/contact">Contact</a>
-              </li>
             </ul>
             
             <button 

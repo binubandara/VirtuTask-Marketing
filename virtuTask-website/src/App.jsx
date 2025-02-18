@@ -8,6 +8,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FeaturesPage from './components/Features';
 import WhyUsSection from './components/WhyUsSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/why-us" element={<WhyUsSection/>} />
           <Route path="/contact" element={<div className="container py-5 text-center">Contact Page Coming Soon</div>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

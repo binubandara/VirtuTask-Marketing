@@ -309,7 +309,6 @@ body {
 /* Utility Classes */
 .text-gradient {
   background: linear-gradient(135deg, #046d48 0%, #126071 100%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
